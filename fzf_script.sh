@@ -48,10 +48,10 @@ name=$(basename "$full")
 if $stay_dir; then
   hx +$n "$full"
 else 
-  cd "$dir"
+  z "$dir"
   hx +$n "$name"
 fi
 
 if $jump_home && $stay_dir; then
-  cd "$original"
+  z "$original"
 fi

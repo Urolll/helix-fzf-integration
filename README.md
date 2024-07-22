@@ -3,8 +3,9 @@ Allows for fuzzy finder to jump into helix with different options
 
 ## Prerequisites
 
-1) helix installed
-2) fzf installed
+1) helix installed (https://docs.helix-editor.com/install.html#installing-helix)
+2) fzf installed (https://github.com/junegunn/fzf)
+3) zoxide installed (https://github.com/ajeetdsouza/zoxide)
 
 ## Integration
 1) git clone "https://github.com/Urolll/helix-fzf-integration"  
